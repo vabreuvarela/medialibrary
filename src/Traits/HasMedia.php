@@ -25,7 +25,7 @@ trait HasMedia
 
     public function media()
     {
-        return $this->morphMany('App\Media', 'model');
+        return $this->morphMany('Spotmarket\MediaLibrary\Models\Media', 'model');
     }
 
     public function getMediaAttribute()
