@@ -19,7 +19,8 @@
     }
   ],
   "require": {
-      "php": "^7.1.3"
+      "php": "^7.1.3",
+      "illuminate/support":
   },
   "autoload": {
     "psr-4": {
@@ -30,6 +31,16 @@
     "psr-4": {
       "Spotmarket\\MediaLibrary\\Tests\\": "tests"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Spatie\\MediaLibrary\\MediaLibraryServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
   },
   "prefer-stable": true
 }
