@@ -1,0 +1,35 @@
+{
+  "name": "spotmarket/medialibrary",
+  "description": "Associate files with Eloquent models",
+  "keywords": [
+    "spotmarket",
+    "medialibrary",
+    "media",
+    "laravel",
+    "images",
+    "downloads"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vitor Varela",
+      "email": "vvarela@spotmarket.pt",
+      "homepage": "https://www.spotmarket.pt",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+      "php": "^7.1.3",
+  },
+  "autoload": {
+    "psr-4": {
+      "Spotmarket\\MediaLibrary\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Spotmarket\\MediaLibrary\\Tests\\": "tests"
+    }
+  },
+  "prefer-stable": true
+}
