@@ -34,7 +34,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Spatie\\MediaLibrary\\MediaLibraryServiceProvider"
+        "Spotmarket\\MediaLibrary\\MediaLibraryServiceProvider"
       ]
     }
   },
